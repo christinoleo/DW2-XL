@@ -126,16 +126,17 @@
 		<WeaponAreaEnergyUsageFactor>1</WeaponAreaEnergyUsageFactor>
 		<ArmorStrengthFactor>1.5</ArmorStrengthFactor>
 		<ArmorReactiveFactor>1.5</ArmorReactiveFactor>
-		<ShieldStrengthFactor>1</ShieldStrengthFactor>
+		<ShieldStrengthFactor>5</ShieldStrengthFactor>
 		<ShieldRechargeFactor>1</ShieldRechargeFactor>
-		<ShieldResistanceFactor>2</ShieldResistanceFactor>
+		<ShieldResistanceFactor>1</ShieldResistanceFactor>
 		<ShieldPenetrationChanceFactor>1</ShieldPenetrationChanceFactor>
 		<ShieldPenetrationRatioFactor>1</ShieldPenetrationRatioFactor>
-		<HyperDriveSpeedFactor>1</HyperDriveSpeedFactor>
-		<HyperDriveEnergyUsageFactor>1</HyperDriveEnergyUsageFactor>
+		<!-- Anything less than 2.5x on speed it chooses Kaldos despite zeros for init/recharge time factors -->
+		<HyperDriveSpeedFactor>2.2</HyperDriveSpeedFactor>
+		<HyperDriveEnergyUsageFactor>0.1</HyperDriveEnergyUsageFactor>
 		<HyperDriveJumpRangeFactor>1</HyperDriveJumpRangeFactor>
-		<HyperDriveInitiationTimeFactor>1</HyperDriveInitiationTimeFactor>
-		<HyperDriveRechargeTimeFactor>1</HyperDriveRechargeTimeFactor>
+		<HyperDriveInitiationTimeFactor>0.1</HyperDriveInitiationTimeFactor>
+		<HyperDriveRechargeTimeFactor>0.1</HyperDriveRechargeTimeFactor>
 		<AreaShieldRangeFactor>1</AreaShieldRangeFactor>
 		<AreaShieldPowerFactor>1</AreaShieldPowerFactor>
 		<AreaShieldEnergyUsageFactor>1</AreaShieldEnergyUsageFactor>
